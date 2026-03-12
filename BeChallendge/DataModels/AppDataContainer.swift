@@ -12,7 +12,7 @@ final class AppDataContainer {
                     UserModel.self
             )
         } catch {
-            fatalError("Не удалось создать ModelContainer: \(error)")
+            fatalError("Can't create ModelContainer: \(error)")
         }
     }
 }

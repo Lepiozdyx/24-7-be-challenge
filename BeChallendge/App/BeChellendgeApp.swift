@@ -4,12 +4,7 @@ import SwiftUI
 struct BeChellendgeApp: App {
     var body: some Scene {
         WindowGroup {
-            LoadingScreen()
-                .preferredColorScheme(.light)
+            AppContentView()
         }
     }
-}
-
-#Preview {
-    LoadingScreen()
 }
